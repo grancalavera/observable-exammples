@@ -1,18 +1,14 @@
 {
   "name": "on-off-switch",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/main.ts",
   "scripts": {
-    "start": "ts-node src/main.ts",
-    "watch": "nodemon"
+    "sketch": "nodemon"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@swc/core": "1.2.218",
     "@swc/helpers": "0.4.3",
+    "chalk": "5.0.1",
+    "date-fns": "2.29.1",
+    "immer": "9.0.15",
     "nodemon": "2.0.19",
     "regenerator-runtime": "0.13.9",
     "rxjs": "7.5.6",

@@ -3,6 +3,9 @@ lockfileVersion: 5.3
 specifiers:
   '@swc/core': 1.2.218
   '@swc/helpers': 0.4.3
+  chalk: 5.0.1
+  date-fns: 2.29.1
+  immer: 9.0.15
   nodemon: 2.0.19
   regenerator-runtime: 0.13.9
   rxjs: 7.5.6
@@ -12,6 +15,9 @@ specifiers:
 dependencies:
   '@swc/core': 1.2.218
   '@swc/helpers': 0.4.3
+  chalk: 5.0.1
+  date-fns: 2.29.1
+  immer: 9.0.15
   nodemon: 2.0.19
   regenerator-runtime: 0.13.9
   rxjs: 7.5.6
@@ -253,6 +259,11 @@ packages:
       fill-range: 7.0.1
     dev: false
 
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
+
   /chokidar/3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
     engines: {node: '>= 8.10.0'}
@@ -274,6 +285,11 @@ packages:
 
   /create-require/1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
+    dev: false
+
+  /date-fns/2.29.1:
+    resolution: {integrity: sha512-dlLD5rKaKxpFdnjrs+5azHDFOPEu4ANy/LTh04A1DTzMM7qoajmKCBc8pkKRFT41CNzw+4gQh79X5C+Jq27HAw==}
+    engines: {node: '>=0.11'}
     dev: false
 
   /debug/3.2.7:
@@ -316,6 +332,10 @@ packages:
 
   /ignore-by-default/1.0.1:
     resolution: {integrity: sha512-Ius2VYcGNk7T90CppJqcIkS5ooHUZyIQK+ClZfMfMNFEF9VSE73Fq+906u/CWu92x4gzZMWOwfFYckPObzdEbA==}
+    dev: false
+
+  /immer/9.0.15:
+    resolution: {integrity: sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==}
     dev: false
 
   /is-binary-path/2.1.0:
