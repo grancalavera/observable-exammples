@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@swc/core': 1.2.218
@@ -21,7 +21,7 @@ dependencies:
   nodemon: 2.0.19
   regenerator-runtime: 0.13.9
   rxjs: 7.5.6
-  ts-node: 10.9.1_bed7bef54314c451d09e4b1753e12978
+  ts-node: 10.9.1_x3l355kdctcfdue6jmlvhyjjpa
   typescript: 4.7.4
 
 packages:
@@ -470,7 +470,7 @@ packages:
       nopt: 1.0.10
     dev: false
 
-  /ts-node/10.9.1_bed7bef54314c451d09e4b1753e12978:
+  /ts-node/10.9.1_x3l355kdctcfdue6jmlvhyjjpa:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
